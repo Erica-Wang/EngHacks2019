@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Restart : MonoBehaviour
 {
-    void Restart(){
+    Restart(){
         Application.LoadLevel(0);
     }
 }
