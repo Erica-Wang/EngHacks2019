@@ -2,23 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Leap;
+using LeapInternal;
 
 public class GestureController : MonoBehaviour
 {
 
-    Controller controller;
-
     void Start()
     {
-        controller = new Controller();
-
+        controller = new GestureController();
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-
-        Frame frame = controller.Frame();
         
     }
 }
