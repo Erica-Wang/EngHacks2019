@@ -9,7 +9,6 @@ public class GestureController : MonoBehaviour
 
     void Start()
     {
-        controller = new GestureController();
         
     }
 
